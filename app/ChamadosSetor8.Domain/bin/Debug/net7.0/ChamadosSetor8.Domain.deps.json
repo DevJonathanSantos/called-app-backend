@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ChamadosSetor8.Domain/1.0.0": {
+        "runtime": {
+          "ChamadosSetor8.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChamadosSetor8.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
