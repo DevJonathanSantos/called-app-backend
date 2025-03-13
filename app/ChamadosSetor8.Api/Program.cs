@@ -53,20 +53,8 @@ app.MapControllers();
 
 app.MapGet("/", () =>
 {
-    string connectionString = "Server=172.18.135.87,1433;Database=ChamadosSetor8;User ID=sa;Password=@#$qweASD;Trusted_Connection=False; TrustServerCertificate=True;";
 
-    using (SqlConnection connection = new SqlConnection(connectionString))
-    {
-        try
-        {
-            connection.Open();
-            return new("Conexão bem-sucedida!");
-            // Execute consultas ou operações no banco de dados aqui, se necessário.
-        }
-        catch (Exception ex)
-        {
-            return ($"Erro de conexão: {ex.Message}");
-        }
-    }
+             return new("Conexï¿½o bem-sucedida!");
+
 });
 app.Run();
